@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="90" height="30" tilewidth="50" tileheight="50">
+ <tileset firstgid="1" name="GroundMid" tilewidth="50" tileheight="50">
+  <image source="groundMid.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="2" name="EarthMid" tilewidth="50" tileheight="50">
+  <image source="earthMid.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="3" name="EarthBtmRight" tilewidth="50" tileheight="50">
+  <image source="EarthBtmRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="4" name="EarthBtmLeft" tilewidth="50" tileheight="50">
+  <image source="EarthBtmLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="5" name="EarthRight" tilewidth="50" tileheight="50">
+  <image source="earthRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="6" name="EarthLeft" tilewidth="50" tileheight="50">
+  <image source="earthLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="7" name="GroundRight" tilewidth="50" tileheight="50">
+  <image source="groundRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="8" name="GroundLeft" tilewidth="50" tileheight="50">
+  <image source="groundLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="9" name="EarthBtmConRight" tilewidth="50" tileheight="50">
+  <image source="EarthBtmConRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="10" name="EarthBtmConLeft" tilewidth="50" tileheight="50">
+  <image source="EarthBtmConLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="11" name="EarthPlatBtm" tilewidth="50" tileheight="50">
+  <image source="EarthPlatBtm.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="12" name="EarthTopRight" tilewidth="50" tileheight="50">
+  <image source="EarthTopRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="13" name="EarthBtm" tilewidth="50" tileheight="50">
+  <image source="earthBtm.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="14" name="EarthTopLeft" tilewidth="50" tileheight="50">
+  <image source="EarthTopLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="15" name="exitBlue" tilewidth="50" tileheight="50">
+  <image source="exitBlue.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="16" name="exitRed" tilewidth="50" tileheight="50">
+  <image source="exitRed.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <layer name="GroundMid" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2FkOwCAIRVG7/013A9jKYPvUe5J+lgABE20NAKDs6nwYQ/8Am3cf1Pcokp9qLQBg2fHM2rEmAHEK50Hv/liR29+1VZrZJ3Wn1Jlx2kxErdAj771atQ4AsKxyflXnqVh3JKfoG3BlzUo9xDo8MzNrvphbIO/tXeRpz0b+9catjpeJmYmHb92m1ACi
+  </data>
+ </layer>
+ <layer name="EarthMid" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKwCAQBEHx/48O3heEuGmc0A1eh6VuzjHG9CEvodS7V0n36sykM9MfnBNuTnVOvjfp7lXSvToz6cykM5POTDoz6cyks+3SmUlnJp2ZdGbSmUlnJp2ZdGZ645zyJ+u+82TvJufuTZ33u917Ote73Xs617vdezrXu917tzj7vn8PbfUDDQ==
+  </data>
+ </layer>
+ <layer name="EarthBtmRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2gEJADAMA8HA/HueiFLWsjsBIQI+AWCq8/oAAAAAAAAAAMDnKv1GR/uxYVPzMtMFuRwAEw==
+  </data>
+ </layer>
+ <layer name="EarthBtmLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2kERADAIA0Ee9a8ZE1CYdlfATQQkAgD+c6YHAAAAAAAAAABP6foiVHc39fw37krfEAAZ
+  </data>
+ </layer>
+ <layer name="EarthRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1cENwCAUw1Au3X9lTlmAQqgrvwG+rHBgDOlfntsBi2jdtN6gdtO4cwdtZ1pv0LppvUHrpvUGrZvWG7RuWm/Qumm9Qeum9Qatm9YbtG5aL5U7d7hzhzt3uHOHO3e4c4c7d7hzx5udKW+0u3Pl3td2Jtx0585Nd+7cdOfOTcq/JJ0wAVnFARQ=
+  </data>
+ </layer>
+ <layer name="EarthLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENACEUw1Cq239k+nQHKGDJb4AvKxSMIanpux2wgdROak2kdlIrmTt3kHcmtZNaE6md1JpI7aTWRGontSZSO6k1kdpJrYnUTmpN5HYSd+5w5w537nDnDnfucOcOd+5w546VnSlvc7pz595LO7+0y+l77ty5586de+7cuUf506Q/JnuSAUs=
+  </data>
+ </layer>
+ <layer name="GroundRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENgCAQBEB+9t+xX+PHgIALzhRAdk9yxFIAWNHxdQBgGy37JH0H1eZL7wNwtePO2rET0CZ5H7zNltytJz25M6tnqTPyb01v7gipVrmbvXMm9h799vxhhvQx6tvWnJuQYeZZAMxzArhvAMw=
+  </data>
+ </layer>
+ <layer name="GroundLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2LERgDAMA0BK9p+YljLJxYdi/ieQjJ2C6wKAnu6vA0Co2dtIv6WVfOmdAN46vlkdOwHrEt6EygwJ/Xbp1GXWn7uPMqMxJ8xpJOMJPchiZ0hxyi7uzpnYu/q/blXnxFmyV8U37ri7bgHgXA+tEQDp
+  </data>
+ </layer>
+ <layer name="EarthBtmConRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt10kKgDAQBECv/v/D4k0ECdFE26HqAcMsoSHLAgBcWb9uACjjTp6kZ1Bvf+nzABxVzKyKM5HHO/uH5Ds97S15tpHMyZldtaXuyN+a0bwRoGV2ToyuL9fqmnXbnroJPbxZC2C3AbGNAOs=
+  </data>
+ </layer>
+ <layer name="EarthBtmConLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1EEOwCAIBEDP/f+De216UiMp0JkHGBaBMQAA9l1fFwBJre5G9l3aqS97JoCnjjerYybyMF/1ZPizyBoy5DulU5ZVf84+S4/mVOjTTI0VcpCLmQHeou9C1PvuWX8Rf7zyZpXZtQtAhBtvVwEF
+  </data>
+ </layer>
+ <layer name="EarthPlatBtm" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt10EOgCAMBEDu/v+/3o0kgDQWmEm8km4pEkoBAK7KRxv9g3e95yH7GRqpL3MegKcd/1k7ZiIPb4D1ZNin2vtxRm1/Z5spsk/ZnZLzi9NmYtQKPWqpa4UcAOQWfZdEre/uY0TPzETNl7kFsrsBPR4Dsw==
+  </data>
+ </layer>
+ <layer name="EarthTopRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjEJAAAIADAD2D+vhxFERNgSLAJaXgcGPt8BAAAAAAAAAABgWwHk7QAZ
+  </data>
+ </layer>
+ <layer name="EarthTopLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIACAT2D+uhw08dG6QgAi25HVg6OsbAAAAAAAAAAAAaAWVzAAd
+  </data>
+ </layer>
+ <layer name="EarthBtm" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDAM4N8uEvgIhDbZvwgm5eKufnfvAAAAAAAAAAAA8F0BAysEBA==
+  </data>
+ </layer>
+ <layer name="ExitBlue" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7A5wL9bJCzh4WkVNAG4m+8AAAAAAAAAAAAA1QJjIgAQ
+  </data>
+ </layer>
+ <layer name="ExitRed" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6BHsH9aY9w5SEACwAXTDgAAAAAAAAAAAG8tdE4AEQ==
+  </data>
+ </layer>
+ <objectgroup name="wall" visible="0">
+  <object x="550" y="1150" width="50" height="300"/>
+  <object x="800" y="1150" width="50" height="300"/>
+  <object x="350" y="1300" width="100" height="50"/>
+  <object x="150" y="800" width="500" height="50"/>
+  <object x="2900" y="1150" width="50" height="300"/>
+  <object x="2650" y="1150" width="50" height="300"/>
+  <object x="2200" y="1200" width="300" height="50"/>
+  <object x="1950" y="1300" width="150" height="50"/>
+  <object x="1850" y="1200" width="50" height="250"/>
+  <object x="1650" y="1200" width="50" height="250"/>
+  <object x="1400" y="1300" width="150" height="50"/>
+  <object x="1000" y="1200" width="300" height="50"/>
+  <object x="3650" y="1150" width="50" height="300"/>
+  <object x="3900" y="1150" width="50" height="300"/>
+  <object x="4400" y="50" width="50" height="1400"/>
+  <object x="4050" y="250" width="350" height="50"/>
+  <object x="50" y="50" width="4350" height="50"/>
+  <object x="50" y="100" width="50" height="1350"/>
+  <object x="3050" y="1300" width="150" height="50"/>
+  <object x="3300" y="1200" width="200" height="50"/>
+  <object x="4050" y="1300" width="100" height="50"/>
+  <object x="850" y="950" width="300" height="50"/>
+  <object x="800" y="600" width="250" height="50"/>
+  <object x="500" y="400" width="250" height="50"/>
+  <object x="100" y="250" width="350" height="50"/>
+  <object x="1100" y="400" width="300" height="50"/>
+  <object x="3350" y="950" width="300" height="50"/>
+  <object x="3850" y="800" width="500" height="50"/>
+  <object x="3450" y="600" width="250" height="50"/>
+  <object x="3750" y="400" width="250" height="50"/>
+  <object x="3100" y="400" width="300" height="50"/>
+  <object x="3550" y="1550"/>
+  <object x="1300" y="800" width="150" height="50"/>
+  <object x="3000" y="750" width="200" height="50"/>
+  <object x="2500" y="850" width="250" height="50"/>
+  <object x="2050" y="100" width="50" height="650"/>
+  <object x="2100" y="700" width="300" height="50"/>
+  <object x="2350" y="100" width="50" height="600"/>
+  <object x="2900" y="950" width="150" height="50"/>
+  <object x="1400" y="1050" width="100" height="50"/>
+  <object x="1650" y="900" width="350" height="50"/>
+ </objectgroup>
+ <objectgroup name="floor" visible="0">
+  <object x="150" y="750" width="500" height="50"/>
+  <object x="550" y="1100" width="300" height="50"/>
+  <object x="350" y="1250" width="100" height="50"/>
+  <object x="100" y="1400" width="450" height="50"/>
+  <object x="850" y="1400" width="800" height="50"/>
+  <object x="1000" y="1150" width="300" height="50"/>
+  <object x="1400" y="1250" width="150" height="50"/>
+  <object x="1650" y="1150" width="250" height="50"/>
+  <object x="1950" y="1250" width="150" height="50"/>
+  <object x="2200" y="1150" width="300" height="50"/>
+  <object x="2650" y="1100" width="300" height="50"/>
+  <object x="1900" y="1400" width="750" height="50"/>
+  <object x="2950" y="1400" width="700" height="50"/>
+  <object x="3650" y="1100" width="300" height="50"/>
+  <object x="3950" y="1400" width="450" height="50"/>
+  <object x="3050" y="1250" width="150" height="50"/>
+  <object x="3300" y="1150" width="200" height="50"/>
+  <object x="4050" y="1250" width="100" height="50"/>
+  <object x="850" y="900" width="300" height="50"/>
+  <object x="800" y="550" width="250" height="50"/>
+  <object x="500" y="350" width="250" height="50"/>
+  <object x="100" y="200" width="350" height="50"/>
+  <object x="1100" y="350" width="300" height="50"/>
+  <object x="3350" y="900" width="300" height="50"/>
+  <object x="4050" y="200" width="350" height="50"/>
+  <object x="3850" y="750" width="500" height="50"/>
+  <object x="3450" y="550" width="250" height="50"/>
+  <object x="3750" y="350" width="250" height="50"/>
+  <object x="3100" y="350" width="300" height="50"/>
+  <object x="1300" y="750" width="150" height="50"/>
+  <object x="3000" y="700" width="200" height="50"/>
+  <object x="2500" y="800" width="250" height="50"/>
+  <object x="2900" y="900" width="150" height="50"/>
+  <object x="1400" y="1000" width="100" height="50"/>
+  <object x="1650" y="850" width="350" height="50"/>
+ </objectgroup>
+ <objectgroup name="start">
+  <object x="150" y="1300" width="50" height="50"/>
+  <object x="4300" y="1300" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup name="Goal">
+  <object x="4300" y="100" width="50" height="100"/>
+  <object x="150" y="100" width="50" height="100"/>
+ </objectgroup>
+ <objectgroup name="objects">
+  <object x="700" y="1100" width="50" height="50"/>
+  <object x="400" y="750" width="50" height="50"/>
+  <object x="1150" y="1400" width="50" height="50"/>
+  <object x="1150" y="1150" width="50" height="50"/>
+  <object x="1800" y="850" width="50" height="50"/>
+  <object x="2350" y="1400" width="50" height="50"/>
+  <object x="2600" y="800" width="50" height="50"/>
+  <object x="3350" y="1400" width="50" height="50"/>
+  <object x="3800" y="1100" width="50" height="50"/>
+  <object x="4100" y="750" width="50" height="50"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="100" tileheight="100">
+ <tileset firstgid="1" name="exit" tilewidth="100" tileheight="100">
+  <image source="exit.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="2" name="GroundMid" tilewidth="100" tileheight="100">
+  <image source="groundMid.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="3" name="GroundLeft" tilewidth="100" tileheight="100">
+  <image source="groundLeft.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="4" name="EarthLeft" tilewidth="100" tileheight="100">
+  <image source="earthLeft.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="5" name="EarthBtmLeft" tilewidth="100" tileheight="100">
+  <image source="EarthBtmLeft.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="6" name="EarthBtmRight" tilewidth="100" tileheight="100">
+  <image source="EarthBtmRight.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="7" name="EarthRight" tilewidth="100" tileheight="100">
+  <image source="earthRight.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="8" name="EarthBtm" tilewidth="100" tileheight="100">
+  <image source="earthBtm.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="9" name="EarthLeft" tilewidth="100" tileheight="100">
+  <image source="earthLeft.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="10" name="EarthTopRight" tilewidth="100" tileheight="100">
+  <image source="EarthTopRight.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="11" name="EarthTopLeft" tilewidth="100" tileheight="100">
+  <image source="EarthTopLeft.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="12" name="EarthMid" tilewidth="100" tileheight="100">
+  <image source="earthMid.png" trans="ff00ff" width="100" height="100"/>
+ </tileset>
+ <layer name="GroundMid" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoACYS8SgY3GA4x91w9dcoGDwAAMhAADM=
+  </data>
+ </layer>
+ <layer name="GroundLeft" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BoAOaBdsAooCoYjc9RMAooAwAgyAAH
+  </data>
+ </layer>
+ <layer name="EarthLeft" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAIso3YPKzBc/TUKRhYAAEQwABE=
+  </data>
+ </layer>
+ <layer name="EarthBtmLeft" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4AtaBdsAoIBsM17gbrv4aBfQHADtQABA=
+  </data>
+ </layer>
+ <layer name="EarthBtmRight" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQE3ANtAOGAUjAgAAFjAABw==
+  </data>
+ </layer>
+ <layer name="EarthRight" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi5gH3U7lG7R+0etXsUjIIhCgA3+wBA
+  </data>
+ </layer>
+ <layer name="EarthBtm" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh4wEFHPApGwSgYBaNgFAwHAAD2ywDZ
+  </data>
+ </layer>
+ <layer name="EarthLeft" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AKco3aPglEwCkbBKKASAACliAAc
+  </data>
+ </layer>
+ <layer name="EarthTopRight" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhZgGugHTAKRsEoGAWjYBRQAQAAS+AACw==
+  </data>
+ </layer>
+ <layer name="EarthTopLeft" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYwD3A9o+CUTAKRsEoGAVDEQAAV4AADA==
+  </data>
+ </layer>
+ <layer name="EarthMid" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBg4BlAPBBg1O5RuykxZyDS+ajd1Ld7IMu1gSxzR/HwwQA1jQy1
+  </data>
+ </layer>
+ <layer name="Exit" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2gHGgHTAKRsEoGAXDGAAADSQAAg==
+  </data>
+ </layer>
+ <objectgroup name="Start" visible="0">
+  <object x="300" y="800" width="100" height="100"/>
+ </objectgroup>
+ <objectgroup name="Floor" visible="0">
+  <object x="200" y="1100" width="600" height="100"/>
+  <object x="800" y="900" width="800" height="100"/>
+  <object x="1600" y="500" width="1500" height="100"/>
+ </objectgroup>
+ <objectgroup name="wall" visible="0">
+  <object x="100" y="100" width="100" height="1100"/>
+  <object x="200" y="100" width="2800" height="100"/>
+  <object x="3100" y="200" width="50" height="400"/>
+  <object x="1600" y="600" width="100" height="400"/>
+  <object x="800" y="1000" width="100" height="100"/>
+ </objectgroup>
+ <objectgroup name="Goal" visible="0">
+  <object x="2800" y="300" width="100" height="200"/>
+ </objectgroup>
+</map>

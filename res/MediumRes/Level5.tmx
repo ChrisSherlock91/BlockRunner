@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="90" height="30" tilewidth="50" tileheight="50">
+ <tileset firstgid="1" name="EarthMid" tilewidth="50" tileheight="50">
+  <image source="earthMid.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="2" name="GroundMid" tilewidth="50" tileheight="50">
+  <image source="groundMid.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="3" name="EarthBtmRight" tilewidth="50" tileheight="50">
+  <image source="EarthBtmRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="4" name="EarthBtmLeft" tilewidth="50" tileheight="50">
+  <image source="EarthBtmLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="5" name="EarthLeft" tilewidth="50" tileheight="50">
+  <image source="earthLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="6" name="EarthRight" tilewidth="50" tileheight="50">
+  <image source="earthRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="7" name="EarthTopLeft" tilewidth="50" tileheight="50">
+  <image source="EarthTopLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="8" name="EarthBtm" tilewidth="50" tileheight="50">
+  <image source="earthBtm.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="9" name="GroundLeft" tilewidth="50" tileheight="50">
+  <image source="groundLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="10" name="GroundRight" tilewidth="50" tileheight="50">
+  <image source="groundRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="11" name="EarthBtmConLeft" tilewidth="50" tileheight="50">
+  <image source="EarthBtmConLeft.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="12" name="EarthBtmConRight" tilewidth="50" tileheight="50">
+  <image source="EarthBtmConRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="13" name="EarthPlatBtm" tilewidth="50" tileheight="50">
+  <image source="EarthPlatBtm.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="14" name="EarthTopRight" tilewidth="50" tileheight="50">
+  <image source="EarthTopRight.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="15" name="Exit" tilewidth="50" tileheight="50">
+  <image source="exit.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <tileset firstgid="16" name="GroundMidFlip" tilewidth="50" tileheight="50">
+  <image source="groundMidFlip.png" trans="ff00ff" width="50" height="50"/>
+ </tileset>
+ <layer name="EarthMid" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKwDAMxVDn/pfumKlgqC3iRg/+WlJNyYqI5ZCpl50ZdmbYmWFnhp3zvtwh7JxnZ4adGXZmVHSm34oT36d2ZtiZ8cfOk3bb/07prD52ZtiZYWeGnRl2Zti5TuU9MPvdG9mZYWeGnbfOs9p5szPj7azZRu78PWi1Als=
+  </data>
+ </layer>
+ <layer name="EarthPlatBtm" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztyqENAAAIBLFfgP3XxeLw0CbnLgEAAAAAAAAALqnR9gAA8EMDuPoAQg==
+  </data>
+ </layer>
+ <layer name="EarthBtm" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEJAAAIADGf9k9sBkEUYYMrcRFsSrUDAAAAAP67/oxfAwAAAIApBTsxBNk=
+  </data>
+ </layer>
+ <layer name="EarthLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt08EJwCAUBUEv6b/lHNKAEFgVZyp47scxAOY8qwdcQueGzg2d5/1ppfM8nRs6N3RunNj5xPvq3NB5f7e9dxWdGzo3dG7o3NC5oXNDZ/j4Cw2dGzo3Tuxsc+PEzbCrF7xhALU=
+  </data>
+ </layer>
+ <layer name="EarthRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0tEJgDAQBcF82X/JViCoyGrMTAXHvhsD/mV7+4BF6NzQuaFzQ+f7rrTT+T6dGzo3tGs81fmNvWb6EZ0bM3eeiT4NnRs6f5NdGjo3dG7o3NC5oXPjyc42O6ZzQ+fGqp3rW3UGztoBldUA9w==
+  </data>
+ </layer>
+ <layer name="EarthTopRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6AnsH9cY1w3SEAC/007AAAAAAAAAAAAAIctUf4ADw==
+  </data>
+ </layer>
+ <layer name="EarthTopLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2CEBAAAMw7Cx+3d8FxtJFBQ3oeXWAQAAAAAAA94oAAAAAOw90TMADw==
+  </data>
+ </layer>
+ <layer name="EarthBtmRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJADAMA7BA//+5J2RoIQRLF9iLB1cBAACQ6kwHAHiUuGOJnQEAAABg2s9fbtPHtykrvQsc6wAT
+  </data>
+ </layer>
+ <layer name="EarthBtmLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJADAMBDEX3n/mzJBgiB+kCa68KgAAAABgQv8OeJDYDAAAPhYA2CzxVRKbuXcAHL8AFQ==
+  </data>
+ </layer>
+ <layer name="EarthBtmConLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztyqENAAAMAjD8/v93T6BIq5sAAAAAAAAAACuudAAA2PIIIwAX
+  </data>
+ </layer>
+ <layer name="EarthBtmConRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6AHsH9eY9w5SEACAAAAAAAAAHw17QAAACcso1AADQ==
+  </data>
+ </layer>
+ <layer name="GroundMid" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKwCAMBEDx/4/uqce0QjVFMwM5m9O6pDUAgGc9GADOkJnz0Vv+FuCLt2zJnCw77gwAALeRPrq6x+rIQAUyDuabeXP7+5YpH2q6AAwvAR8=
+  </data>
+ </layer>
+ <layer name="GroundLeft" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJADAIRUHb7L+wCyikESG5m8DKDy8CAKB3tg8A4Bk2BQAAALjpA9MNQaMAfuDXAVBJvxkANw==
+  </data>
+ </layer>
+ <layer name="GroundRight" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2MEJADAIA0Df3X9gd5CKgncT5JVAIgAAat50AABaTfS8bQEAAIBbNn4BGzMB/KLjAG5LxXwAPQ==
+  </data>
+ </layer>
+ <layer name="GroundMidFlip" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7BJwL9aFCzh5GiTJvDbHAIAAAAAAAAAAADdAmE6AJE=
+  </data>
+ </layer>
+ <layer name="Exit" width="90" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6A3sH9bY9w5SEACAABw17QDAAAAAAAAAA8s5IMAEA==
+  </data>
+ </layer>
+ <objectgroup name="floor">
+  <object x="150" y="1400" width="500" height="50"/>
+  <object x="650" y="1100" width="450" height="50"/>
+  <object x="1100" y="1400" width="1850" height="50"/>
+  <object x="2900" y="1250" width="50" height="150"/>
+  <object x="2950" y="1250" width="300" height="50"/>
+  <object x="3500" y="1050" width="250" height="50"/>
+  <object x="3950" y="1050" width="450" height="50"/>
+  <object x="100" y="500" width="350" height="50"/>
+  <object x="450" y="700" width="950" height="50"/>
+  <object x="1400" y="500" width="500" height="50"/>
+  <object x="1900" y="650" width="1750" height="50"/>
+  <object x="3650" y="250" width="400" height="50"/>
+ </objectgroup>
+ <objectgroup name="wall">
+  <object x="650" y="1150" width="50" height="300"/>
+  <object x="1050" y="1150" width="50" height="300"/>
+  <object x="100" y="800" width="50" height="650"/>
+  <object x="3500" y="1100" width="250" height="50"/>
+  <object x="3950" y="1100" width="150" height="50"/>
+  <object x="3200" y="1300" width="50" height="150"/>
+  <object x="150" y="800" width="3850" height="50"/>
+  <object x="4000" y="300" width="50" height="550"/>
+  <object x="4400" y="50" width="50" height="1050"/>
+  <object x="50" y="50" width="4350" height="50"/>
+  <object x="3650" y="300" width="50" height="400"/>
+  <object x="1850" y="550" width="50" height="150"/>
+  <object x="1400" y="550" width="50" height="200"/>
+  <object x="400" y="550" width="50" height="200"/>
+  <object x="50" y="100" width="50" height="450"/>
+ </objectgroup>
+ <objectgroup name="start">
+  <object x="200" y="1350" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup name="Goal">
+  <object x="150" y="100" width="50" height="400"/>
+ </objectgroup>
+ <objectgroup name="boostObj">
+  <object type="3" x="550" y="1300" width="50" height="50"/>
+  <object type="3" x="3400" y="1200" width="50" height="50"/>
+  <object type="3" x="500" y="600" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup name="saws">
+  <object x="3300" y="1400" width="50" height="50"/>
+  <object x="3400" y="1400" width="50" height="50"/>
+  <object x="3500" y="1400" width="50" height="50"/>
+  <object x="3600" y="1400" width="50" height="50"/>
+  <object x="3700" y="1400" width="50" height="50"/>
+  <object x="3800" y="1400" width="50" height="50"/>
+  <object x="3900" y="1400" width="50" height="50"/>
+  <object x="4000" y="1400" width="50" height="50"/>
+ </objectgroup>
+ <objectgroup name="switch">
+  <object type="1" x="3975" y="850" width="1" height="250"/>
+  <object type="0" x="4045" y="850" width="1" height="250"/>
+  <object type="0" x="4045" y="100" width="1" height="150"/>
+  <object type="1" x="3975" y="100" width="1" height="150"/>
+ </objectgroup>
+ <objectgroup name="swingSaw">
+  <object type="2" x="1500" y="1085" width="50" height="50"/>
+  <object x="2000" y="1085" width="50" height="50"/>
+  <object type="2" x="2500" y="1085" width="50" height="50"/>
+  <object type="2" x="3300" y="325" width="50" height="50"/>
+  <object x="2800" y="325" width="50" height="50"/>
+  <object type="2" x="2300" y="325" width="50" height="50"/>
+ </objectgroup>
+</map>
